@@ -1,0 +1,30 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "mount_one",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 13,
+    "separation": 3,
+    "restrictionBiomes": [
+      {
+        "value": "mountains"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "UNDERGROUND_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": -33,
+    "startHeightMax": -5,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}
